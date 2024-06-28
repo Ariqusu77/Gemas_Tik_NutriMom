@@ -31,7 +31,7 @@ class _MyMainPageState extends State<MyMainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Center(child: Text('NutriGrowth')),
+        title: const Center(child: Text('NutriMom')),
       ),
       body: Center(
         child: _widgetOptions.elementAt(_selectedIndex),
